@@ -11,6 +11,8 @@ const msalConfig = {
   },
 };
 
+
+
 const cca = new msal.ConfidentialClientApplication(msalConfig);
 
 export const login = (req, res) => {
